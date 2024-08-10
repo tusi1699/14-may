@@ -1,0 +1,96 @@
+@media  screen and (max-width:400px) {
+     #hero-section .hero-section-card{
+        flex-wrap: wrap;
+    }
+    #hero-section .hero-section-card .content{
+        width: 100%;
+    }
+    #hero-section .hero-section-card .content .link{
+        margin: 0 auto;
+        display: flex;
+        margin-top: 20px;
+    }
+    #hero-section .hero-section-card .img{
+        display: inline-block;
+    }
+    #hero-section .hero-section-card .img img{
+       max-width: 300px;
+
+    }
+    #hero-section .hero-section-card .team{
+width: 100%;    
+    
+    }
+#hero-section .hero-section-card .team .img{
+        overflow: scroll;
+    }
+    #hero-section .hero-section-card .team .img > img{
+width: 70px;
+    }
+    
+    #timeline-section .timelinecard{
+        flex-wrap: wrap;
+    }
+    #timeline-section .timelinecard 
+    #timeline-section .timelinecard .content{
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+        font-size: 20px;
+        font-weight: 900;
+        justify-content: space-between;
+    }
+    #timeline-section .timelinecard .content{
+        width: 100%;
+    }
+    #work-easier-section .workeasycard{
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+   #worktime-section .worktimecard{
+        flex-wrap: wrap-reverse;
+        width: 100%;
+    }
+    #worktime-section .worktimecard .content{
+        width: 100%;
+        object-fit: cover;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    #worktime-section .worktimecard .content p{
+        width: 45%;
+        align-items: center;
+        margin-left: 100px;
+    }
+    #worktime-section .worktimecard .content button{
+        margin-left: 100px;
+    }
+    #testimonials-section .user-feedbackcard{
+        width: 100%;
+
+    }
+    #testimonials-section .profiles{
+        display: flex;
+        align-items: start;
+        overflow: scroll;
+        margin: 0;
+       margin-top: 20px;
+    }
+    #cta-section .cta-card{
+ flex-wrap: wrap;
+        width: 100%;
+        margin: 0;
+    }
+    #cta-section .cta-card h3{
+        width: 100%;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    footer .top-footer{
+        flex-wrap: wrap;
+    }
+  
+}

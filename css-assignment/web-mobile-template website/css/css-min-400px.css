@@ -1,0 +1,56 @@
+@media screen and (min-width:400px){
+    #hero-section .hero-section-card {
+        flex-wrap:wrap;
+    }
+    #hero-section .hero-section-card .img{
+        width: 300px;
+        height: 200px;
+    }
+   #hero-section .hero-section-card .team .img{
+        width: 300px;
+        height: 200px;
+        margin: 0;
+    }
+    #hero-section .hero-section-card .link{
+        text-align: center;
+        margin: 0 auto;
+        display: flex;
+        margin-top: 10px;
+    }
+    #hero-section .hero-section-card .img {
+height: 350px;
+width: 300vw;
+    }
+    #worktime-section .worktimecard{
+        flex-wrap: wrap-reverse;
+        width: 100%;
+    }
+    #timeline-section .timelinecard{
+        flex-wrap: wrap;
+    }
+    #testimonilas-section .user-feedbackcard .profiles{
+        overflow: scroll;
+    }
+    #testimonials-section .profiles{
+        overflow: scroll;
+    }
+    #cta-section .cta-card{
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    #cta-section .cta-card h3{
+        padding-left: 40px;
+    }
+    #cta-section .cta-card .img{
+        padding-left: 40px;
+        padding-top: 20px;
+    }
+    footer .top-footer{
+        flex-wrap: wrap;
+    }
+    footer .bottom-footer{
+        display: flex;
+    }
+   
+}

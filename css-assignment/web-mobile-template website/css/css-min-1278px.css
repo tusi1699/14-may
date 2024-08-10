@@ -1,0 +1,79 @@
+@media screen and (min-width:1278px){
+    header .btn{
+        display: flex;
+    }
+    header{
+        align-items: center;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    .wrapper{
+        align-items: center;
+    }
+    .wrapper nav{
+        width: fit-content;
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+    }
+    header .wrapper .btn{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #hero-section .hero-section-card .content .btn{
+ margin-left: 150px;
+        margin: 0 auto;
+    }
+    #hero-section .hero-section-card > .img > img{
+        height: 400px;
+        width: 700px;
+        align-items: center;
+        margin-left: 150px;
+    }
+    #hero-section .hero-section-card .link{
+        margin-top: 20px;
+    }
+    #hero-section .hero-section-card .team{
+        margin-top: 70px;
+    }
+    #hero-section .hero-section-card .team > .img > img{
+        gap: 30px;
+    }
+    #timeline-section .timelinecard{
+        padding-left: 100px;
+    }
+    #timeline-section .timelinecard .img > img{
+        height: 350px;
+        width: 400px;
+    }
+    #timeline-section .timelinecard .content{
+        margin-left: 150px;
+    }
+    #worktime-section .worktimecard{
+        padding-left: 200px;
+    }
+    #worktime-section .worktimecard .img > img{
+        margin-left: 100px;
+    }
+    #testimonials-section .profiles{
+     display: flex;
+      justify-content: center;
+    }
+    #cta-section .cta-card{
+        height: 150px;
+        padding-left: 100px;
+        align-items: center;
+    }
+    #cta-section .cta-card .img {
+        margin-left: 200px;
+    }
+    .footer .top-footer{
+        align-items: center;
+    }
+    .footer .bottom-footer .icon{
+        margin-left: 900px;
+    }
+
+}
