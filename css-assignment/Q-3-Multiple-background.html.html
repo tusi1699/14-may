@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px auto;
+            box-sizing: border-box;
+        }
+        .card{
+            display: flex;
+            height: 500px;
+            width:1000px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            margin-top: 20px;
+            position: relative;
+         }
+        .content{
+            height: 500px;
+            width: 600px;
+           text-align: right;
+           background-color: rgba(0, 0, 0, 0.63);
+           padding-right: 30px;
+         }
+        .img img{
+            height: 500px;
+            width: 450px;
+        }
+        .content h4{
+            padding-right: 20px;
+            color: aliceblue;
+            font-size: 18px;
+            font-weight: 50;
+             padding-top: 50px;
+            padding-bottom: 20px;
+            position: relative;
+        }
+        .content h4::after{
+            content: '';
+            height: 20px;
+            width: 4px;
+            background-color: rgb(226, 55, 55);
+            right: 1px;
+          position: absolute;
+        }
+        .content .detail{
+            margin-right: 20px;
+             }
+        .detail h5{
+            color: rgba(59, 187, 187, 0.61);
+            font-size: 16px;
+            font-weight:400;
+            padding-bottom: 5px;
+            padding-top: 20px;
+            }
+
+        .detail p{
+            color: whitesmoke;
+            line-height: 25px;
+        }
+        .icon{
+            position: absolute;
+            top: 88px;
+            right: 43%;
+            
+        }
+        .icon i{
+            display: flex;
+            align-items: center;
+            text-align: center;
+            margin-top: 50px;
+            border-radius: 50%;
+            border: 3px solid rgba(245, 15, 15, 0.562);
+            background-color: whitesmoke;
+            padding: 11px;
+            align-items: center;
+            padding-left: 10px;
+            color: rgba(245, 15, 15, 0.562);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="icon">
+            <i class="fa-solid fa-tv"></i><br>
+            <i class="fa-solid fa-print"></i><br>
+            <i class="fa-solid fa-camera-retro"></i><br>
+        </div>
+        <div class="content">
+            <h4>OUR SERVICES</h4>
+            <div class="detail">
+                <h5>WEB DESIGN</h5>
+                <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</P>
+                <p>Lorem ipsum dolor sit amet.</p>
+        
+                <h5>PRINT DESIGN</h5>
+                <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</P>
+                <p>Lorem ipsum dolor sit amet.</p>
+            
+            
+                <h5>PHOTOGRAPHY</h5>
+                <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</P>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+        <div class="img">
+            <img src="https://images.pexels.com/photos/1508109/pexels-photo-1508109.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        </div>
+    </div>
+</body>
+</html>
