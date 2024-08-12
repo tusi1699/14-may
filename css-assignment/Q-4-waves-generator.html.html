@@ -1,0 +1,241 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .card {
+        height: 70vh;
+        width: 65vw;
+        margin: 50px auto;
+        background-color: rgb(46, 44, 44);
+        color: rgb(216, 216, 216);
+        position: relative;
+        border: 1px solid transparent;
+        transition: all 400ms;
+      }
+      .card h2,
+      .card p,
+      .card .wrapper {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+      }
+      .card h2 {
+        margin-top: 70px;
+      }
+      .card .wrapper {
+        display: flex;
+        gap: 10px;
+      }
+      .card .wrapper .v-divider {
+        height: 1px;
+        width: 80px;
+        background-color: rgb(160, 104, 67);
+      }
+      .card .wrapper .v-divider:nth-child(2) {
+        height: 5px;
+        width: 5px;
+        border-radius: 50%;
+      }
+      .card .profile {
+        transition: all 300ms;
+        transition-delay: 200ms;
+      }
+      .card .profile img {
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        object-fit: cover;
+        position: absolute;
+        border: 2px solid rgb(188, 113, 62);
+        z-index: 1;
+      }
+      .card .profile img:hover {
+        height: 50px;
+        width: 50px;
+        border: 3px solid rgb(188, 113, 62);
+        box-shadow: rgba(32, 32, 34, 0.859) 0px 7px 29px 0px;
+      }
+      .card .profile img:hover + h4,
+      .card .profile img:hover ~ h5 {
+        opacity: 1;
+      }
+      .card .profile#one img {
+        top: 73%;
+        left: 10%;
+      }
+      .card .profile#two img {
+        top: 65%;
+        left: calc(10% + 18%);
+      }
+      .card .profile#three img {
+        top: 65%;
+        left: calc(10% + 36%);
+      }
+      .card .profile#four img {
+        top: 74%;
+        left: calc(10% + 54%);
+      }
+      .card .profile#five img {
+        top: 76%;
+        left: calc(10% + 72%);
+      }
+      .card .profile h4,
+      .card .profile h5 {
+        opacity: 0;
+        position: absolute;
+        z-index: 1;
+      }
+      .card .profile h4 {
+        color: rgb(188, 113, 62);
+      }
+      .card .profile h4::before {
+        content: "";
+        height: 70px;
+        width: 2px;
+        background-color: rgb(188, 113, 62);
+        position: absolute;
+      }
+      .card .profile h5 {
+        font-size: 11px;
+      }
+      .card .profile#one h4 {
+        bottom: 7%;
+        left: 7%;
+      }
+      .card .profile#one h5 {
+        bottom: 3%;
+        left: 9%;
+      }
+      .card .profile#one h4::before {
+        height: 28px;
+        bottom: 120%;
+        left: 43%;
+      }
+      .card .profile#two h4 {
+        bottom: 12%;
+        left: 25%;
+      }
+      .card .profile#two h5 {
+        bottom: 8%;
+        left: 27%;
+      }
+      .card .profile#two h4::before {
+        height: 42px;
+        bottom: 120%;
+        left: 43%;
+      }
+      .card .profile#three h4 {
+        bottom: 12%;
+        left: 43%;
+      }
+      .card .profile#three h5 {
+        bottom: 8%;
+        left: 45%;
+      }
+      .card .profile#three h4::before {
+        height: 42px;
+        bottom: 120%;
+        left: 43%;
+      }
+      .card .profile#four h4 {
+        bottom: 6%;
+        left: 61%;
+      }
+      .card .profile#four h5 {
+        bottom: 2%;
+        left: 63%;
+      }
+      .card .profile#four h4::before {
+        height: 30px;
+        bottom: 110%;
+        left: 43%;
+      }
+      .card .profile#five h4 {
+        bottom: 6%;
+        left: 79%;
+      }
+      .card .profile#five h5 {
+        bottom: 2%;
+        left: 81%;
+      }
+      .card .profile#five h4::before {
+        height: 18px;
+        bottom: 110%;
+        left: 43%;
+      }
+      .card svg {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h2>OUR TEAM</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+      <div class="wrapper">
+        <div class="v-divider"></div>
+        <div class="v-divider"></div>
+        <div class="v-divider"></div>
+      </div>
+      <div class="profile" id="one">
+        <img
+          src="https://media.istockphoto.com/id/1540766473/photo/young-adult-male-design-professional-smiles-for-camera.jpg?s=2048x2048&w=is&k=20&c=syvz2kk2m0YsDk1R3z7L446NQs8_-l6eldzLYNbCjzU="
+          alt=""
+        />
+        <h4>WEB DESIGNER</h4>
+        <h5>UI / UX Designer</h5>
+      </div>
+      <div class="profile" id="two">
+        <img
+          src="https://media.istockphoto.com/id/2099403180/photo/laughing-yougn-businesswoman-standing-with-her-arms-crossed-against-an-office-wall.jpg?s=2048x2048&w=is&k=20&c=Bxof_N_lGmZ_xYhiNp53Uz8g3tJZk4de01NRvmSh8n0="
+          alt=""
+        />
+        <h4>WEB DESIGNER</h4>
+        <h5>UI / UX Designer</h5>
+      </div>
+      <div class="profile" id="three">
+        <img
+          src="https://cdn.pixabay.com/photo/2015/01/12/10/45/man-597178_1280.jpg"
+          alt=""
+        />
+        <h4>WEB DESIGNER</h4>
+        <h5>UI / UX Designer</h5>
+      </div>
+      <div class="profile" id="four">
+        <img
+          src="https://media.istockphoto.com/id/1185878322/photo/theres-no-better-way-to-stay-organized.jpg?s=2048x2048&w=is&k=20&c=jcIUAv2EBrDDxdx-PlOp2JpLQtrOmLC5igbK_QgUT0E="
+          alt=""
+        />
+        <h4>WEB DESIGNER</h4>
+        <h5>UI / UX Designer</h5>
+      </div>
+      <div class="profile" id="five">
+        <img
+          src="https://cdn.pixabay.com/photo/2023/01/24/13/23/viet-nam-7741019_1280.jpg"
+          alt=""
+        />
+        <h4>WEB DESIGNER</h4>
+        <h5>UI / UX Designer</h5>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#8c4545"
+          fill-opacity="0.3"
+          stroke=" #f5f5f5"
+          d="M0,224L48,202.7C96,181,192,139,288,112C384,85,480,75,576,80C672,85,768,107,864,133.3C960,160,1056,192,1152,181.3C1248,171,1344,117,1392,90.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </div>
+  </body>
+</html>
