@@ -1,0 +1,101 @@
+
+@media (min-width: 992px) {
+    :root {
+      --primary-padding: 50px 100px;
+      --margin-top: 20px;
+    }
+    .btn-2 {
+      padding: 10px 15px;
+    }
+    header .wrapper nav .btn-2 {
+      opacity: 1;
+      position: static;
+    }
+    main .hero-section h1 {
+      padding: 0 23%;
+      font-size: 40px;
+      line-height: 50px;
+    }
+    main .hero-section p {
+      padding: 0 25%;
+    }
+    main .hero-section img {
+      height: 570px;
+      width: 900px;
+      object-fit: cover;
+    }
+    main .hero-section .offer span:nth-child(2) {
+      margin-left: 10%;
+    }
+    main .graph-section {
+      flex-wrap: nowrap;
+      padding: 40px 0;
+      justify-content: space-around;
+    }
+    main .graph-section img {
+      height: fit-content;
+      width: fit-content;
+      object-fit: cover;
+    }
+    main .graph-section .info {
+      width: 300px;
+      line-height: 25px;
+      padding: 10px 5px;
+    }
+    main .graph-section .info::before {
+      height: 30%;
+      width: 5px;
+      top: 12px;
+      left: -5px;
+    }
+    main .graph-section .info:hover::before {
+      height: 100%;
+      width: 5px;
+      top: 0;
+    }
+    main .work-section {
+      padding: 0;
+    }
+    main .work-section h1 {
+      margin: 40px 0;
+    }
+    main .work-section .works {
+      row-gap: 30px;
+    }
+    main .about-us-section {
+      flex-wrap: nowrap;
+      padding: 50px 0;
+    }
+    main .about-us-section img {
+      width: auto;
+      height: auto;
+    }
+    main .about-us-section .about-us-info h1 {
+      padding: 0;
+    }
+    main .profile-section h3 {
+      padding: 0 20%;
+      line-height: 50px;
+    }
+    main .profile-section p {
+      padding: 0 20%;
+    }
+    main .app-store-section .btn {
+      padding: 55px 30px;
+      margin-top: 0;
+    }
+    main .app-store-section h2 {
+      font-size: 30px;
+      width: 450px;
+      margin-right: 60px;
+    }
+    footer .footer-top h3 {
+      font-weight: 500;
+      font-size: 20px;
+    }
+  
+    footer .footer-bottem::before {
+      top: 75%;
+    }
+  }
+  

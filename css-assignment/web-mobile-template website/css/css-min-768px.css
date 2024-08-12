@@ -1,0 +1,78 @@
+
+@media (min-width: 768px) {
+    :root {
+      --primary-padding: 20px 50px;
+      --margin-top: 50px;
+    }
+    header label {
+      display: none;
+    }
+    header .wrapper {
+      visibility: visible;
+      opacity: 1;
+      position: static;
+      flex-direction: row;
+      background-color: transparent;
+    }
+    header .wrapper nav {
+      flex-direction: row;
+    }
+    header .wrapper nav .btn-2 {
+      opacity: 0;
+      position: absolute;
+    }
+    main .hero-section h1 {
+      padding: 0 20%;
+    }
+    main .hero-section p {
+      padding: 0 22%;
+    }
+    main .hero-section .offer span:nth-child(2) {
+      margin-left: 13%;
+    }
+    main .hero-section .email input {
+      padding: 10px 20px;
+    }
+    main .clients-section p {
+      font-size: 16px;
+    }
+    main .work-section .works {
+      row-gap: 50px;
+      column-gap: 25px;
+    }
+    main .work-section {
+      margin-bottom: 50px;
+    }
+    main .work-section .works .btn-2 {
+      opacity: 0;
+    }
+    main .about-us-section .about-us-info {
+      gap: 30px;
+      margin-top: 30px;
+    }
+    main .about-us-section .about-us-info h1 {
+      font-size: 40px;
+      line-height: 50px;
+    }
+    main .about-us-section .about-us-info p {
+      font-size: 16px;
+    }
+    main .profile-section {
+      margin-top: var(--margin-top);
+    }
+    main .profile-section h3 {
+      font-size: 40px;
+      padding: 0 60px;
+    }
+    main .app-store-section h2 {
+      font-size: 20px;
+      width: 300px;
+    }
+    main .app-store-section .btn {
+      flex-direction: row;
+      padding: 43px 13px;
+      border-radius: 20px;
+      width: fit-content;
+    }
+  }
+  

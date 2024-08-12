@@ -1,0 +1,122 @@
+
+@media (min-width: 576px) {
+    :root {
+      --primary-padding: 30px;
+      --margin-top: 40px;
+    }
+    .btn {
+      padding: 8.5px 20px;
+    }
+  
+    main .hero-section .offer span:nth-child(1) {
+      visibility: visible;
+      padding: 4px 12px;
+      border-radius: 40px;
+      right: 90%;
+    }
+    main .hero-section .offer span:nth-child(2) {
+      padding: 4px 17px;
+      border-radius: 0 40px 40px 0;
+    }
+    main .hero-section h1 {
+      padding: 0 12%;
+    }
+    main .hero-section p {
+      padding: 0 12%;
+    }
+    main .hero-section .email input {
+      margin-bottom: 0;
+    }
+    main .hero-section img {
+      height: 400px;
+      width: 90vw;
+      margin: 30px 0 0 0;
+    }
+    main .clients-section p {
+      font-size: 14px;
+    }
+    main .clients-section .imgs {
+      margin-top: 30px;
+    }
+    main .clients-section img {
+      height: fit-content;
+      width: fit-content;
+    }
+    main .graph-section img {
+      height: 400px;
+      width: 80vw;
+    }
+    main .graph-section .info {
+      width: 400px;
+      line-height: 25px;
+      padding: 20px;
+      text-align: center;
+    }
+    main .work-section h1 {
+      margin-bottom: 40px;
+      font-size: 35px;
+    }
+    main .about-us-section img {
+      height: 400px;
+      width: 80vw;
+      object-fit: contain;
+    }
+    main .about-us-section .about-us-info h1 {
+      padding: 40px 70px 0 70px;
+      font-size: 30px;
+    }
+    main .about-us-section .about-us-info span {
+      padding: 8.5px 20px;
+    }
+    main .profile-section h3 {
+      padding: 0 20%;
+      font-size: 30px;
+      line-height: 45px;
+    }
+    main .profile-section p {
+      font-size: 16px;
+      padding: 0 10%;
+      line-height: 30px;
+    }
+    main .profile-section .profiles .profile#one,
+    main .profile-section .profiles .profile#two,
+    main .profile-section .profiles .profile#three {
+      display: flex;
+    }
+    main .profile-section .profiles {
+      justify-content: space-between;
+    }
+    main .profile-section .profiles .profile {
+      flex-direction: row;
+      text-align: start;
+      gap: 15px;
+    }
+    main .app-store-section h2 {
+      font-size: 30px;
+      width: 450px;
+      padding: 0;
+    }
+    main .app-store-section .btn img {
+      height: fit-content;
+      width: fit-content;
+    }
+    footer .footer-top {
+      flex-direction: row;
+      padding: 50px 0;
+    }
+    footer .footer-top #links i {
+      opacity: 0;
+    }
+    footer .footer-top nav {
+      display: flex;
+      flex-direction: column;
+    }
+    footer .footer-bottem img {
+      visibility: visible;
+      position: static;
+    }
+    footer .footer-bottem::before {
+      top: 77%;
+    }
+  }
+  

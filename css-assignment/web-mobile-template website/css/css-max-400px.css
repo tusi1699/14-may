@@ -1,0 +1,235 @@
+
+@media (max-width: 400px) {
+    :root {
+      --primary-padding: 20px;
+      --margin-top: 30px;
+    }
+  
+    .btn {
+      padding: 8px 120px;
+    }
+  
+    header {
+      position: relative;
+    }
+    header label {
+      display: flex;
+      flex-direction: column;
+      font-size: 7px;
+    }
+    header label i {
+      font-size: 22px;
+    }
+    header .wrapper {
+      position: absolute;
+      top: 40px;
+      right: 20px;
+      opacity: 0;
+      border-radius: 8px;
+      flex-direction: column;
+      background-color: rgba(238, 238, 238, 0.949);
+      padding: 10px;
+      visibility: hidden;
+      z-index: 1;
+    }
+    header .wrapper nav {
+      flex-direction: column;
+    }
+    header .wrapper nav .btn-2 {
+      padding: 5px 10px;
+    }
+    header .wrapper nav a {
+      margin-right: 0;
+    }
+    header .wrapper nav a:nth-child(5) {
+      margin-right: 0;
+      margin-left: 0;
+    }
+    main .hero-section .offer span:nth-child(1) {
+      visibility: hidden;
+    }
+    main .hero-section .offer span:nth-child(2) {
+      padding: 1px 17px;
+      border-radius: 40px;
+      margin-left: 0;
+    }
+    main .hero-section h1 {
+      padding: 0;
+      width: 85vw;
+      font-size: 30px;
+      line-height: 40px;
+    }
+    main .hero-section p {
+      padding: 0;
+      width: 85vw;
+    }
+    main .hero-section .email input {
+      padding: 10px 75px;
+      margin-bottom: 8px;
+      margin-left: 0;
+    }
+    main .hero-section img {
+      height: 270px;
+      width: 90vw;
+      object-fit: contain;
+    }
+    main .clients-section {
+      margin-top: 0;
+    }
+    main .clients-section p {
+      font-size: 11px;
+    }
+    main .clients-section .imgs {
+      margin-top: 10px;
+    }
+    main .clients-section img {
+      width: 40px;
+    }
+    main .graph-section {
+      justify-content: center;
+    }
+    main .graph-section img {
+      height: 270px;
+      width: 70vw;
+      object-fit: contain;
+    }
+    main .graph-section .infos {
+      margin-top: 15px;
+    }
+    main .graph-section .info {
+      width: 300px;
+      line-height: 20px;
+      padding: 15px;
+      text-align: center;
+    }
+    main .graph-section .info::before {
+      height: 0;
+      width: 0;
+      top: 0;
+      left: 0;
+    }
+    main .graph-section .info:hover::before {
+      width: 100%;
+      height: 3px;
+      top: 0;
+    }
+    main .work-section {
+      margin-top: 0;
+    }
+    main .work-section h1 {
+      font-size: 22px;
+      margin-bottom: 20px;
+    }
+    main .work-section .works .work-info p {
+      width: 80vw;
+    }
+    main .work-section .works {
+      row-gap: 30px;
+      justify-content: center;
+    }
+    main .work-section .works .work-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    main .work-section .works .btn-2 {
+      opacity: 1;
+      width: 200px;
+    }
+    main .about-us-section img {
+      height: 270px;
+      width: 70vw;
+      object-fit: contain;
+    }
+    main .about-us-section .about-us-info {
+      align-items: center;
+      text-align: center;
+      gap: 25px;
+    }
+    main .about-us-section .about-us-info h1 {
+      font-size: 20px;
+      width: auto;
+      padding: 0 30px;
+      line-height: 30px;
+    }
+    main .about-us-section .about-us-info p {
+      width: auto;
+      font-size: 14px;
+      padding: 0 15px;
+    }
+    main .about-us-section .about-us-info span {
+      padding: 10px 70px;
+    }
+    main .profile-section {
+      row-gap: 30px;
+    }
+    main .profile-section h3 {
+      padding: 30px 40px 0 40px;
+      font-size: 23px;
+      line-height: 32px;
+    }
+    main .profile-section p {
+      font-size: 15px;
+      padding: 0 8px;
+      line-height: 30px;
+    }
+  
+    main .profile-section .profiles .profile#two,
+    main .profile-section .profiles .profile#three {
+      display: none;
+    }
+    main .profile-section .profiles {
+      justify-content: space-evenly;
+    }
+    main .profile-section .profiles .profile {
+      flex-direction: column;
+      text-align: center;
+      gap: 15px;
+    }
+    main .app-store-section .btn {
+      padding: 30px 0;
+      width: 100%;
+      border-radius: 0;
+      flex-direction: column;
+      gap: 30px;
+      margin-top: 25px;
+    }
+    main .app-store-section h2 {
+      font-size: 22px;
+      margin-right: 0;
+      width: auto;
+      text-align: center;
+    }
+    main .app-store-section .btn img {
+      height: 40px;
+      width: 200px;
+      margin-left: 0;
+      object-fit: contain;
+    }
+    footer .footer-top {
+      flex-direction: column;
+      padding: 50px 40px;
+      gap: 20px;
+    }
+    footer .footer-top #links h3 {
+      font-size: 17px;
+    }
+    footer .footer-top #links i {
+      opacity: 1;
+    }
+    footer .footer-top nav {
+      display: none;
+    }
+    footer .footer-bottem img {
+      visibility: hidden;
+      position: absolute;
+    }
+    footer .footer-bottem {
+      padding: 30px 0;
+    }
+    footer .footer-bottem::before {
+      top: 87%;
+    }
+  }
+  
